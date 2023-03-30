@@ -1,8 +1,8 @@
 <script setup lang="ts">
-console.log(import.meta.env)
 </script>
 
 <template>
+	<h2>member.vue</h2>
 	<router-view></router-view>
 </template>
 

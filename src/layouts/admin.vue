@@ -1,8 +1,8 @@
 <script setup lang="ts">
-console.log(import.meta.env)
 </script>
 
 <template>
+	<h1>admin.vue</h1>
 	<router-view></router-view>
 </template>
 
