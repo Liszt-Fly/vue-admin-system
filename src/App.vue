@@ -1,9 +1,14 @@
 <script setup lang="ts">
-console.log(import.meta.env)
+import userApi from "@/apis/userApi"
+
+let response1 = await userApi.login()
+console.log('response1', response1)
 </script>
 
 <template>
-	<router-view></router-view>
+	<suspense>
+		<router-view></router-view>
+	</suspense>
 </template>
 
 <style scoped></style>

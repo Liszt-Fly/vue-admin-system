@@ -1,7 +1,7 @@
 //# 解决环境变量都是字符串的问题
 import _ from 'lodash'
-export function parseEnv(env: Record<string, any>) {
-	const envs = _.cloneDeep(env)
+export function parseEnv(env: Record<string, any>): ViteEnv {
+const envs: any = _.cloneDeep(env)
 	Object.entries(env).forEach(([key, value]) => {
 		//# 处理布尔
 		if (value == "true") {
