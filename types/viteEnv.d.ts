@@ -7,7 +7,6 @@ interface ImportMeta {
 }
 
 interface ViteEnv {
-	VITE_SOME_KEY: number
-	VITE_API_AUTOLOAD: boolean
+	VITE_ROUTE_AUTOLOAD: boolean
 	VITE_API_URL: string
 }

@@ -16,6 +16,7 @@
     "lodash": "^4.17.21",
     "mockjs": "^1.1.0",
     "path": "^0.12.7",
+    "sass": "^1.60.0",
     "vite-plugin-mock": "^2.9.6",
     "vue": "^3.2.47",
     "vue-router": "4"
